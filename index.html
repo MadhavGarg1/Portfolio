@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persoanl Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="conatiner">
+            <nav>
+                <img src="Protfoliologo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Madhav</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------About------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="PortfolioImageAbout2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>I am a skilled web developer passionate about creating dynamic, user-friendly websites. With expertise in modern web technologies, he builds seamless digital experiences that drive engagement and performance.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Frontend Design</li>
+                            <li><span>Graphics Designing</span><br>Canva, Pixellab, Capcut</li>
+                            <li><span>Soft Skills</span><br>Communication, Sales, Marketing, CRM, Team Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Designing Frontend of Websites</li>
+                            <li><span>2024 - Current</span><br>Freelance</li>
+                            <li><span>May/2024 - Aug/2024</span><br>Glocal University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 -2026</span><br>Glocal University</li>
+                            <li><span>2024</span><br>Self</li>
+                            <li><span>2024</span><br>Self</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- Services ------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services List</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in frontend web design, creating visually appealing, user-friendly, and responsive websites. With expertise in HTML, CSS, JavaScript, and modern frameworks, I craft seamless digital experiences that enhance usability, accessibility, and brand identity for businesses and individuals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-clip"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I am a skilled graphic designer with expertise in creating visually compelling designs for branding, marketing, and digital media. I specialize in logo design, social media graphics, and UI elements, ensuring aesthetic appeal and clear communication in every project.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Madhav Garg is a skilled UI/UX designer specializing in creating intuitive and visually appealing user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Portfolio------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="glocal.png">
+                    <div class="layer">
+                        <h3>Glocal Website</h3>
+                        <p>"Glocal University website built with HTML & CSS, featuring a responsive design, intuitive navigation, and modern aesthetics for an enhanced user experience."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Stone Paper.png">
+                    <div class="layer">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>"A simple Rock-Paper-Scissors game where players compete against the computer with randomized choices and instant win/loss feedback."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                <!-- <div class="work">
+                    <img src="Currency Converter.png">
+                    <div class="layer">
+                        <h3>Currency converter</h3>
+                        <p>"A simple and efficient currency converter that provides real-time exchange rates, allowing users to convert currencies instantly. Designed for accuracy and ease of use, ideal for travelers and businesses."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- ---------------Contact-------------- -->
+      <div id="contact">
+        <div class="contaner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> gargmadhav.00001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8273274778</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="White Simple Student CV .pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="Email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i>  Madhav. Made with <i class="fa-solid fa-heart"></i> his Portfolio</p>
+        </div>
+      </div>
+
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+          for( let tablink of tablinks){
+              tablink.classList.remove("active-link");
+          }
+          for(let tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      
+      }
+    </script>
+      
+      <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrjkeZAnLVe2ZWe49myn-T9AfUl5OcQ7D-zQve2yHGRYh71c_BrWsm0eZZQ9TKrfHmig/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
